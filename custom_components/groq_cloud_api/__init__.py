@@ -1,4 +1,4 @@
-"""Groq Cloud API integration."""
+"""xAI Cloud API integration."""
 
 import groq
 
