@@ -7,8 +7,8 @@
   ],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/HunorLaczko/ha-groq-cloud-api",
-  "issue_tracker": "https://github.com/HunorLaczko/ha-groq-cloud-api/issues",
+  "documentation": "https://github.com/fly3r01/ha-xai-cloud-api",
+  "issue_tracker": "https://github.com/fly3r01/ha-xai-cloud-api/issues",
   "homekit": {},
   "iot_class": "cloud_push",
   "requirements": [
