@@ -2,7 +2,7 @@
 
 import logging
 
-DOMAIN = "xAI_cloud_api"
+DOMAIN = "xai_cloud_api"
 
 LOGGER = logging.getLogger(__name__)
 
