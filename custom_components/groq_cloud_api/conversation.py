@@ -89,8 +89,8 @@ class GroqConversationEntity(
         self._attr_device_info = dr.DeviceInfo(
             identifiers={(DOMAIN, entry.entry_id)},
             name=entry.title,
-            manufacturer="Groq",
-            model="Groq Cloud",
+            manufacturer="xAI",
+            model="xAI Cloud",
             entry_type=dr.DeviceEntryType.SERVICE,
         )
         if self.entry.options.get(CONF_LLM_HASS_API):
