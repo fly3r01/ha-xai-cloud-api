@@ -2,7 +2,7 @@
 
 import logging
 
-DOMAIN = "groq_cloud_api"
+DOMAIN = "xAI_cloud_api"
 
 LOGGER = logging.getLogger(__name__)
 
@@ -10,7 +10,7 @@ DEFAULT_NAME = "Groq Cloud API"
 CONF_RECOMMENDED = "recommended"
 CONF_PROMPT = "prompt"
 CONF_CHAT_MODEL = "chat_model"
-RECOMMENDED_CHAT_MODEL = "llama-3.1-70b-versatile"
+RECOMMENDED_CHAT_MODEL = "grok-beta"
 CONF_MAX_TOKENS = "max_tokens"
 RECOMMENDED_MAX_TOKENS = 150
 CONF_TOP_P = "top_p"
