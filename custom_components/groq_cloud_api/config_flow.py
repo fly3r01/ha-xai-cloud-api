@@ -76,7 +76,7 @@ async def validate_input(hass: HomeAssistant, data: dict[str, Any]):
 
     response = await asyncio.to_thread(
         requests.get,
-        url="https://api.groq.com/openai/v1/models",
+        url="https://api.x.ai/v1/models",
         headers={
             "Authorization": f"Bearer {data.get(CONF_API_KEY)}",
             "Content-Type": "application/json"
